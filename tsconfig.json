@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "dist",
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "module": "ESNext",
+
+    "lib": ["dom", "esnext"],
+
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    "sourceMap": false,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+
+    "strict": true /* Enable all strict type-checking options. */,
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}

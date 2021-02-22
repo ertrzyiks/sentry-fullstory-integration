@@ -1,0 +1,22 @@
+{
+  "name": "@ertrzyiks/sentry-fullstory-integration",
+  "version": "1.0.0",
+  "description": "Enhance Sentry reports with link to FullStory session",
+  "author": "Mateusz Derks <mateusz.derks@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git+https://github.com/ertrzyiks/sentry-fullstory-integration.git",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "@sentry/types": "^5.29.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
